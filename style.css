@@ -1,0 +1,84 @@
+body{
+font-family:Arial;
+background:#f5f5f5;
+margin:0;
+padding:12px;
+}
+
+.header{
+text-align:center;
+padding:20px;
+background:linear-gradient(135deg,#00C4CC,#7D2AE8);
+color:#fff;
+border-radius:16px;
+}
+
+.live-time{
+text-align:center;
+margin:12px 0;
+padding:8px;
+background:#fff;
+border-radius:8px;
+color:black;
+font-weight:bold;
+background:linear-gradient(135deg,#00C4CC,#7D2AE8);
+}
+
+.plan-box{
+background:#fff;
+padding:14px;
+border-radius:12px;
+margin:10px 0;
+background:linear-gradient(135deg,#00C4CC,#7D2AE8);
+}
+
+.plan{
+display:block;
+padding:10px;
+margin:6px 0;
+border-radius:10px;
+background:#f1f5f9;
+
+}
+
+.popular{
+border:2px solid #00C4CC;
+}
+
+.qr-payment{
+text-align:center;
+background:#fff;
+padding:12px;
+border-radius:12px;
+background:linear-gradient(135deg,#00C4CC,#7D2AE8);
+}
+
+.qr-img{
+width:350px;
+border-radius:20px;
+}
+
+.form{
+background:#fff;
+padding:12px;
+border-radius:12px;
+margin-top:10px;
+}
+
+.form input{
+width:100%;
+padding:10px;
+margin:6px 0;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+button{
+width:100%;
+padding:12px;
+background:linear-gradient(135deg,#00C4CC,#7D2AE8);
+border:none;
+border-radius:10px;
+color:#fff;
+font-weight:bold;
+}

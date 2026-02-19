@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Zinmatt Canva pro</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+<h2>Canva Pro</h2>
+<p>Premium Subscription • Instant Access</p>
+</div>
+
+<!-- 4 HOUR TIMER -->
+<div class="live-time">
+⏳ Offer Ends In:
+<span id="timer">04:14:40</span>
+</div>
+
+
+<!-- PLAN SELECT -->
+<div class="plan-box">
+<h3>Select Your Plan</h3>
+
+<label class="plan">
+<input type="radio" name="plan" value="1 Month – ₹49">
+1 Month – ₹49
+</label>
+
+<label class="plan popular">
+<input type="radio" name="plan" value="1 Year – ₹199">
+1 Year – ₹199 ⭐ Popular
+</label>
+
+<label class="plan">
+<input type="radio" name="plan" value="2 Year – ₹299">
+2 Year – ₹299
+</label>
+
+<label class="plan">
+<input type="radio" name="plan" value="Lifetime – ₹350">
+Lifetime – ₹399
+</label>
+
+</div>
+<!-- FORM -->
+<div class="form">
+<input type="text" id="name" placeholder="Full Name">
+<input type="email" id="email" placeholder="Email Address">
+<input type="tel" id="mobile" placeholder="Mobile Number">
+
+<button onclick="submitOrder()">Order Now on Telegram</button>
+</div>
+
+<!-- QR -->
+<div class="qr-payment">
+<h3>Scan & Pay</h3>
+<img src="qr.png" class="qr-img">
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
